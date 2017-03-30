@@ -8,7 +8,7 @@ Course website: http://cars.mit.edu
 chocolatey install anaconda3
 conda create -n tensorflow python=3.5 anaconda
 activate tensorflow
-pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.1-cp35-cp35m-win_amd64.whl --proxy="http://proxy-chain.intel.com:911"
+pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.1-cp35-cp35m-win_amd64.whl 
 
 #install open cv2
 - Goto http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
