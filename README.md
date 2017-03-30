@@ -30,6 +30,8 @@ pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorfl
 - Goto http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
 - Download opencv_python-3.2.0+contrib-cp35-cp35m-win_amd64.whl  (cp 35 = is for python 3.5, presumably)
 
+run the following from a cmd as administrator
+
 ```
 pip install opencv_python-3.2.0+contrib-cp35-cp35m-win_amd64.whl 
 ```
