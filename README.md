@@ -2,10 +2,26 @@
 
 Course website: http://cars.mit.edu
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+# Setup guide for windows 10 pro
+
+Notes:
+
+- if you are in an enterprise environment that uses proxies, use --proxy=|proxy| in the first pip command
+
+## installing chocolatey 
+
+- this is a package manager for windows. Used here  for installing anaconda3. Run the following from a cmd.
+```shell
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+```
+## installing tensorflow and open cv2
+
+run the following from a cmd as administrator
 
 ```shell
+#install anaconda3
 chocolatey install anaconda3
+# create tensorflow environment.  Note: at the time of this writing it has got to version 3.5 of python. no more and no less.
 conda create -n tensorflow python=3.5 anaconda
 activate tensorflow
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.1-cp35-cp35m-win_amd64.whl 
@@ -14,6 +30,4 @@ pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorfl
 - Goto http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
 - Download opencv_python-3.2.0+contrib-cp35-cp35m-win_amd64.whl  (cp 35 = python 3.5. I think)
 pip install opencv_python-3.2.0+contrib-cp35-cp35m-win_amd64.whl 
-
-
 ```
