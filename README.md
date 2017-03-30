@@ -1,9 +1,9 @@
-# deepcars
+# deepcars 
 
 Course website: http://cars.mit.edu
 
-# Setup guide for windows 10 pro
 
+# Setup guide for windows 10 pro
 
 
 ## installing chocolatey 
@@ -26,7 +26,7 @@ activate tensorflow
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.1-cp35-cp35m-win_amd64.whl 
 ```
 
-# install open cv2
+## install open cv2
 - Goto http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
 - Download opencv_python-3.2.0+contrib-cp35-cp35m-win_amd64.whl  (cp 35 = is for python 3.5, presumably)
 
