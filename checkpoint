@@ -1,2 +1,3 @@
-model_checkpoint_path: "C:\\rafamonge\\deepcars\\test"
+model_checkpoint_path: "C:\\rafamonge\\deepcars\\model.ckpt"
 all_model_checkpoint_paths: "C:\\rafamonge\\deepcars\\test"
+all_model_checkpoint_paths: "C:\\rafamonge\\deepcars\\model.ckpt"
