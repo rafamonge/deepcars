@@ -38,3 +38,7 @@ pip install opencv_python-3.2.0+contrib-cp35-cp35m-win_amd64.whl
 ## setting up keras
 
 http://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/
+
+## Keras book repo
+
+https://github.com/PacktPublishing/Deep-Learning-with-Keras
