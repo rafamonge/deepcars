@@ -35,10 +35,30 @@ run the following from a cmd as administrator
 ```
 pip install opencv_python-3.2.0+contrib-cp35-cp35m-win_amd64.whl 
 ```
-## setting up keras
 
-http://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/
+## Useful Links
+- ![Setting up keras](http://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/)
+- ![Keras book repo ](https://github.com/PacktPublishing/Deep-Learning-with-Keras)
+- ![Keras examples](https://github.com/fchollet/keras/tree/master/examples)
 
-## Keras book repo
+## installing on Ubuntu 14.4 linux 
 
-https://github.com/PacktPublishing/Deep-Learning-with-Keras
+```
+cd ~
+
+wget https://repo.continuum.io/archive/Anaconda3-4.4.0-Linux-x86_64.sh
+
+bash  Anaconda3-4.4.0-Linux-x86_64.sh -b -p ~/anaconda
+rm Anaconda3-4.4.0-Linux-x86_64.sh
+echo 'export PATH="~/anaconda/bin:$PATH"' >> ~/.bashrc
+
+# Refresh basically
+source ~/.bashrc
+
+conda update conda
+
+conda create -n tensorflow
+source activate tensorflow
+pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.2.0-cp36-cp36m-linux_x86_64.whl
+
+```
