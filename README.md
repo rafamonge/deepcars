@@ -12,7 +12,7 @@ Course website: http://cars.mit.edu
 ```shell
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
-## installing tensorflow 
+## installing tensorflow
 
 run the following from a cmd as administrator
 
@@ -26,7 +26,7 @@ activate tensorflow
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.1-cp35-cp35m-win_amd64.whl 
 ```
 
-## install open cv2
+## install open cv2 
 - Goto http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
 - Download opencv_python-3.2.0+contrib-cp35-cp35m-win_amd64.whl  (cp 35 = is for python 3.5, presumably)
 
@@ -36,12 +36,12 @@ run the following from a cmd as administrator
 pip install opencv_python-3.2.0+contrib-cp35-cp35m-win_amd64.whl 
 ```
 
-## Useful Links
+# Useful Links
 - ![Setting up keras](http://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/)
 - ![Keras book repo ](https://github.com/PacktPublishing/Deep-Learning-with-Keras)
 - ![Keras examples](https://github.com/fchollet/keras/tree/master/examples)
 
-## installing on Ubuntu 14.4 linux 
+# installing tensorflow 1.2 on Ubuntu 14.4 linux 
 
 ```
 cd ~
