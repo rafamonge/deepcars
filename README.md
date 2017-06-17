@@ -42,6 +42,7 @@ pip install opencv_python-3.2.0+contrib-cp35-cp35m-win_amd64.whl
 - ![Keras examples](https://github.com/fchollet/keras/tree/master/examples)
 - ![Mnist logistic regression on keras](https://medium.com/@the1ju/simple-logistic-regression-using-keras-249e0cc9a970)
 - ![Barch normalization in keras](https://stackoverflow.com/questions/34716454/where-do-i-call-the-batchnormalization-function-in-keras)
+  - In addition to speeding up training by preventing significant shifts in the distribution of inputs to each layer, batch normalization also allows us to significantly increase the learning rate. Moreover, batch normalization acts as a regularizer and removes the need for dropout and (when used) L2 regularization. Note: they should be placed before the nonlineary. i.e. before the activation function.
 
 # installing tensorflow 1.2 on Ubuntu 14.4 linux 
 
