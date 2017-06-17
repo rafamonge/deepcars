@@ -40,6 +40,7 @@ pip install opencv_python-3.2.0+contrib-cp35-cp35m-win_amd64.whl
 - ![Setting up keras](http://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/)
 - ![Keras book repo ](https://github.com/PacktPublishing/Deep-Learning-with-Keras)
 - ![Keras examples](https://github.com/fchollet/keras/tree/master/examples)
+- ![Mnist logistic regression on keras](https://medium.com/@the1ju/simple-logistic-regression-using-keras-249e0cc9a970)
 
 # installing tensorflow 1.2 on Ubuntu 14.4 linux 
 
